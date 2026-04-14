@@ -1,0 +1,32 @@
+uploads = []
+outputs = []
+
+[[generated]]
+id = "zt5jPzBGEPCV_cX6zwv9H"
+uri = "file://artifacts/portfolio/src/assets/images/profile.png"
+type = "image"
+title = "developer profile portrait"
+
+[[generated]]
+id = "Qhav8YEnIfPqLjLxb5vrf"
+uri = "file://artifacts/portfolio/src/assets/images/project-1.png"
+type = "image"
+title = "data viz dashboard"
+
+[[generated]]
+id = "5f3iz15vMRRbEyvCOeuH8"
+uri = "file://artifacts/portfolio/src/assets/images/project-2.png"
+type = "image"
+title = "editorial website layout"
+
+[[generated]]
+id = "koIBfmxD_MpkTUvFiC3Vu"
+uri = "file://artifacts/portfolio/src/assets/images/project-3.png"
+type = "image"
+title = "technical schematic wireframe"
+
+[[generated]]
+id = "mbR3ObeXHgGntBZjBdWVF"
+uri = "file://artifacts/portfolio/src/assets/images/project-4.png"
+type = "image"
+title = "ecommerce brutalist ui"
