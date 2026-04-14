@@ -37,39 +37,39 @@ export function About() {
               <div className="absolute inset-0 bg-primary/20 translate-x-4 translate-y-4"></div>
               <img 
                 src={profileImg} 
-                alt="Portrait" 
+                alt="Retrato de Yan Rawi" 
                 className="w-full h-full object-cover relative z-10 grayscale hover:grayscale-0 transition-all duration-700"
                 data-testid="img-profile"
               />
               <div className="absolute -left-8 top-12 mono text-xs rotate-[-90deg] origin-left text-muted-foreground tracking-widest hidden lg:block">
-                EST. 2018 //
+                UAPI //
               </div>
             </div>
           </div>
 
           <div className="w-full md:w-7/12">
-            <div className="mono text-primary mb-6 reveal-on-scroll">01. THE CRAFT</div>
+            <div className="mono text-primary mb-6 reveal-on-scroll">01. SOBRE MIM</div>
             <h2 className="text-3xl md:text-5xl font-bold mb-8 tracking-tight reveal-on-scroll delay-100">
-              Obsessed with the details others ignore.
+              Estudante focado em construir experiências digitais funcionais.
             </h2>
             
             <div className="space-y-6 text-lg text-muted-foreground reveal-on-scroll delay-200">
               <p>
-                A great tool should feel invisible. When the interface gets out of the way, the user can focus entirely on their work. That's the bar I set for every project.
+                Sou Yan Rawi, Estudante de Sistemas para Internet da UAPI, em formação para criar soluções web modernas, acessíveis e bem estruturadas.
               </p>
               <p>
-                I specialize in bridging the gap between rigorous engineering and refined design. Whether it's a complex data dashboard or an immersive editorial piece, I build systems that scale without losing their soul.
+                Meu objetivo é unir tecnologia, design e organização para desenvolver projetos que sejam claros para o usuário e eficientes na prática. Gosto de aprender, experimentar e transformar problemas em interfaces úteis.
               </p>
               
               <div className="pt-8 border-t border-border mt-8">
-                <div className="mono text-sm text-foreground mb-4 font-bold">CORE CAPABILITIES</div>
+                <div className="mono text-sm text-foreground mb-4 font-bold">COMPETÊNCIAS</div>
                 <div className="grid grid-cols-2 gap-4 mono text-sm">
                   <div>- TypeScript / React</div>
-                  <div>- UI Architecture</div>
-                  <div>- Performance Tuning</div>
-                  <div>- Motion & Interaction</div>
-                  <div>- Design Systems</div>
-                  <div>- WebGL / Canvas</div>
+                  <div>- HTML / CSS</div>
+                  <div>- Interfaces Responsivas</div>
+                  <div>- JavaScript</div>
+                  <div>- Experiência do Usuário</div>
+                  <div>- Sistemas Web</div>
                 </div>
               </div>
             </div>

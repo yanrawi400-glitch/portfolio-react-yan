@@ -8,33 +8,33 @@ import imgProj4 from "@/assets/images/project-4.png";
 const PROJECTS = [
   {
     id: "p1",
-    title: "Nexus Analytics",
-    description: "A high-density data visualization dashboard for institutional traders. Built to handle millions of rows without dropping a frame.",
-    tech: ["React", "WebGL", "TypeScript"],
+    title: "Portfólio MVP",
+    description: "Uma página profissional para apresentar identidade, trajetória, habilidades e projetos de forma clara, moderna e responsiva.",
+    tech: ["React", "Tailwind", "Responsivo"],
     image: imgProj1,
     link: "#"
   },
   {
     id: "p2",
-    title: "The Observer",
-    description: "An editorial platform focusing on long-form journalism. Typography-first approach with rigorous grid systems.",
-    tech: ["Next.js", "Tailwind", "Framer Motion"],
+    title: "Sistema de Cadastro",
+    description: "Aplicação web para organizar registros, visualizar informações essenciais e manter dados estruturados em uma interface simples.",
+    tech: ["React", "Formulários", "TypeScript"],
     image: imgProj2,
     link: "#"
   },
   {
     id: "p3",
-    title: "Aura System",
-    description: "Open-source component library and design system adopted by over 20 enterprise teams. Complete with full a11y support.",
-    tech: ["Radix UI", "CSS Modules", "Storybook"],
+    title: "App de Finanças",
+    description: "Interface para acompanhar entradas, saídas e saldo, ajudando usuários a visualizar melhor sua rotina financeira.",
+    tech: ["React", "Painel", "Interface"],
     image: imgProj3,
     link: "#"
   },
   {
     id: "p4",
-    title: "Kinetix Store",
-    description: "A brutalist e-commerce experience for a conceptual fashion brand. Custom cart implementation and bespoke interactions.",
-    tech: ["React", "Zustand", "Stripe API"],
+    title: "Painel de Estudos",
+    description: "Projeto de organização acadêmica para acompanhar tarefas, prazos e evolução de estudos em um ambiente digital.",
+    tech: ["React", "Grade", "Experiência"],
     image: imgProj4,
     link: "#"
   }
@@ -67,9 +67,9 @@ export function Projects() {
     >
       <div className="container mx-auto px-6 md:px-12">
         <div className="mb-20 reveal-on-scroll">
-          <div className="mono text-primary mb-6">02. SELECTED WORKS</div>
+          <div className="mono text-primary mb-6">02. PROJETOS</div>
           <h2 className="text-4xl md:text-6xl font-bold tracking-tight">
-            Proof of concept.
+            Ideias transformadas em prática.
           </h2>
         </div>
 
@@ -111,7 +111,7 @@ export function Projects() {
                   className="inline-flex items-center gap-2 mono text-sm font-bold uppercase tracking-wider hover:text-primary transition-colors"
                   data-testid={`project-link-${project.id}`}
                 >
-                  View Case Study <ArrowUpRight className="w-4 h-4" />
+                  Ver projeto <ArrowUpRight className="w-4 h-4" />
                 </a>
               </div>
 

@@ -35,18 +35,18 @@ export function Header() {
           onClick={() => scrollTo("hero")}
           data-testid="logo"
         >
-          [WKSHP]
+          Yan Rawi
         </div>
         
         <nav className="hidden md:flex items-center gap-8 mono text-sm" data-testid="nav-links">
           <button onClick={() => scrollTo("about")} className="nav-link text-muted-foreground hover:text-foreground transition-colors" data-testid="nav-about">
-            01. ABOUT
+            01. SOBRE
           </button>
           <button onClick={() => scrollTo("projects")} className="nav-link text-muted-foreground hover:text-foreground transition-colors" data-testid="nav-projects">
-            02. WORK
+            02. PROJETOS
           </button>
           <button onClick={() => scrollTo("footer")} className="nav-link text-muted-foreground hover:text-foreground transition-colors" data-testid="nav-contact">
-            03. CONTACT
+            03. CONTATO
           </button>
         </nav>
       </div>

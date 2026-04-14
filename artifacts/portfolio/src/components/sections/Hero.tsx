@@ -28,16 +28,16 @@ export function Hero() {
       <div className="container mx-auto px-6 md:px-12 relative z-20">
         <div ref={containerRef} className="max-w-4xl">
           <div className="mono text-primary mb-6 animate-in fade-in slide-in-from-bottom-4 duration-700">
-            SYSTEM INITIALIZED //
+            PORTFÓLIO INICIADO //
           </div>
           
           <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight leading-[1.1] mb-8 animate-in fade-in slide-in-from-bottom-8 duration-700 delay-100">
-            Building digital <br/>
-            <span className="text-muted-foreground italic font-serif font-normal">tools</span> with precision.
+            Yan Rawi <br/>
+            <span className="text-muted-foreground italic font-serif font-normal">desenvolvendo</span> soluções digitais.
           </h1>
           
           <p className="text-xl md:text-2xl text-muted-foreground max-w-2xl leading-relaxed mb-12 animate-in fade-in slide-in-from-bottom-8 duration-700 delay-200">
-            Senior Design Engineer. Crafting interfaces that respect the user's time and attention. No fluff, just functional elegance.
+            Estudante de Sistemas para Internet da UAPI. Criando interfaces modernas, responsivas e objetivas para transformar ideias em experiências digitais.
           </p>
 
           <div className="animate-in fade-in slide-in-from-bottom-8 duration-700 delay-300">
@@ -46,7 +46,7 @@ export function Hero() {
               className="group flex items-center gap-4 mono text-sm uppercase tracking-widest hover:text-primary transition-colors"
               data-testid="button-view-work"
             >
-              <span>View the work</span>
+              <span>Ver projetos</span>
               <span className="w-10 h-[1px] bg-foreground group-hover:bg-primary transition-colors group-hover:w-16"></span>
               <ArrowDown className="w-4 h-4" />
             </button>
