@@ -1,27 +1,25 @@
-# Workspace
+# Portfólio Yan Rawi
 
 ## Overview
 
-pnpm workspace monorepo using TypeScript. Each package manages its own dependencies.
+Aplicação React simples com Vite na raiz do projeto, preparada para deploy na Vercel sem estrutura de monorepo ou servidor/API.
 
 ## Stack
 
-- **Monorepo tool**: pnpm workspaces
-- **Node.js version**: 24
-- **Package manager**: pnpm
-- **TypeScript version**: 5.9
-- **API framework**: Express 5
-- **Database**: PostgreSQL + Drizzle ORM
-- **Validation**: Zod (`zod/v4`), `drizzle-zod`
-- **API codegen**: Orval (from OpenAPI spec)
-- **Build**: esbuild (CJS bundle)
+- React
+- Vite
+- TypeScript
+- Tailwind CSS
 
 ## Key Commands
 
-- `pnpm run typecheck` — full typecheck across all packages
-- `pnpm run build` — typecheck + build all packages
-- `pnpm --filter @workspace/api-spec run codegen` — regenerate API hooks and Zod schemas from OpenAPI spec
-- `pnpm --filter @workspace/db run push` — push DB schema changes (dev only)
-- `pnpm --filter @workspace/api-server run dev` — run API server locally
+- `npm run dev` ou `pnpm run dev` — iniciar o servidor de desenvolvimento
+- `npm run build` ou `pnpm run build` — gerar build de produção com `vite build`
+- `npm run preview` ou `pnpm run preview` — visualizar o build localmente
 
-See the `pnpm-workspace` skill for workspace structure, TypeScript setup, and package details.
+## Deploy
+
+Para Vercel, use:
+
+- Build command: `vite build`
+- Output directory: `dist`
